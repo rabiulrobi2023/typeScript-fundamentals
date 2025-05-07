@@ -20,9 +20,6 @@
   }
 
   class Mobile extends Product {
-    constructor(name: string, brand: string) {
-      super(name, brand);
-    }
     getMobileBrand() {
       return `I am a mobile and my brand is ${this.brand}`;
     }
